@@ -1,0 +1,28 @@
+Way -1
+
+public class HelloWorldPro {
+	public static void main(String[] args)
+	{
+		System.out.println("Hello world...!!!");
+	}
+}
+
+
+Way-2(BY using function)
+
+
+public class HelloWorldPro {
+
+	public static String hw() {
+		return "Hello world...!!! Welcome to Java";
+	}
+
+	public static void main(String[] args) {
+		String result = hw();
+		System.out.println(result);
+	}
+}
+
+
+
+
